@@ -1,0 +1,10 @@
+extends ../../layout/layout
+block style
+  link(rel="stylesheet" href="./index.scss")
+block content
+  include ./page-view-data
+  div.signin    
+    div.signin-form__wrapper      
+      +formBuilder(formData)    
+block script
+  script( src="./signin.js" type="module")
