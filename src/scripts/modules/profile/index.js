@@ -1,2 +1,3 @@
-export * from './avatar'
-export * from './userData'
+import '../../components/fileField'
+import './avatar'
+import './userData'
