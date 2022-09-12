@@ -5,10 +5,10 @@
   "author": "an_bir <an_bir@mail.com>",
   "license": "MIT",
   "browserslist": "last 2 versions, not dead",
-  "source": "src/pages/signin/signin.pug",
+  "source": "src/pages/signin.pug",
   "scripts": {
     "dev": "parcel --open --no-cache",
-    "build": "parcel build src/pages/*/*.pug",
+    "build": "parcel build src/pages/*.pug",
     "server": "node src/server/app.js localhost 3000"
   },
   "devDependencies": {
